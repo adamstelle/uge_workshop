@@ -1,0 +1,29 @@
+UNIX Philosophy: key elements to modern UNIX coding are:
+- Human readable plan text 
+- Nested subdirectories
+- many small programs
+- input-output redirection
+
+UNIX Kernel: a program that manages the hardware
+- Kernel is the layer btw other programs and hardware (e.g. CPU, Memory, Devices)
+
+UNIX Shell: provide a user interface
+- first command line
+- next graphical user interface
+- multi-touch user interface 
+- audible user interface (e.g. Siri)
+
+Terminal Notes
+- “Path”: goes from broad to specific. absolute paths start with  / , relative (without /)
+- “Root”: topmost container of the filing system - everything is contained within
+- “flags”: modifiers on most commands (e.g. ls -t). Can also combine flags.  
+- “Piping” (|) - uses | key sets parameters on output (e.g. “man | less” to see content in more usable form)
+- “Redirection Operator” (>) sends output of a command on the left side to file named on right (if doesn’t exist, created, if does, overwritten); if double (>>) used, adds rather than replaces 
+
+Useful Terminal Commands
+- cd (change directory) - can be absolute or relative
+- pwd (present working directory): show where you are now
+- ls (list the contents of current directory), can be modified by 
+- man + … (manual) will pull up overview of a command, including all available flags and what they do
+- less (controls the amount of info shown to you), press space to move forward a full screen, or enter to move forward a line
+- “cat” - reads contents of every file you provide and puts them together & dumps on screen (output is text)
