@@ -1,0 +1,19 @@
+GIT Notes
+- git init: creates an initial git repository in whatever folder you're currently in
+- git status: checks the status of the git repository (what files are currently tracked / untracked, what branch you're on, etc.) 
+- git add: adds any files or directories to the git staging area (make untracked things tracked)
+- git commit: commits all content in the git staging area, which adds ID, Signature, Timestamp, any Differences, and Message. Commit is permanent
+- git log: shows commit history, including git 
+
+- Hidden files or folders all start with . (eg .xyzfile), and can be viewed under "ls -a")
+- git log ll (shows consolidated version of all commits), git log la (shows more detailed view of all commits)
+- git uses labels: head (the most recent commit), master (the name for the very first branch)
+- create new branches with the branch command (eg git branch git-notes) - (to see all existing branches type git branch)
+- switch branches with checkout (then branch name)
+
+- Git remote -v (view): check to see what other computers (or Github repos) are connected to local repo
+
+
+- If you create a git repo locally then want to put into the cloud, create a new blank repo in Github.com and push the existing local repo (the master branch) with:
+git remote add origin https://github.com/adamstelle/uge_workshop.git
+git push -u origin master
