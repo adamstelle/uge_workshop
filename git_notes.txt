@@ -17,3 +17,6 @@ GIT Notes
 - If you create a git repo locally then want to put into the cloud, create a new blank repo in Github.com and push the existing local repo (the master branch) with:
 git remote add origin https://github.com/adamstelle/uge_workshop.git
 git push -u origin master
+
+Pull Requests: essentially 'submit' your code for review and merging into master branch
+- go to Github, go to Pull Requests
