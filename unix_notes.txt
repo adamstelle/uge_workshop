@@ -36,3 +36,7 @@ GIT Notes
 - git log: shows commit history, including git 
 
 - Hidden files or folders all start with . (eg .xyzfile), and can be viewed under "ls -a")
+- git log ll (shows consolidated version of all commits), git log la (shows more detailed view of all commits)
+- git uses labels: head (the most recent commit), master (the name for the very first branch)
+- create new branches with the branch command (eg git branch git-notes) - (to see all existing branches type git branch)
+- switch branches with checkout (then branch name)
